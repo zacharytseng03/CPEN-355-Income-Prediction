@@ -1,0 +1,8 @@
+--- Random Forest Regression (Tuned) ---
+RMSE: 25204.1465981574
+MAE: 18336.931678552668
+R2 Score: 0.5542432830445672
+
+--- Best Random Forest Parameters ---
+{'max_depth': 5, 'n_estimators': 100}
+Random Forest CV Mean R²: 0.5660

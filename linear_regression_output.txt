@@ -1,0 +1,28 @@
+--- Cross-Validation R� Scores (Linear) ---
+Linear Regression CV Mean R�: 0.5566
+--- Linear Regression ---
+RMSE: 25566.20453319212
+MAE: 18900.72930079456
+R2 Score: 0.5413446959852173
+
+--- Tuned Ridge Regression (alpha=1) ---
+RMSE: 25562.52842595421
+MAE: 18898.571887841692
+R2 Score: 0.5414765845385436
+
+--- Best Ridge Parameters ---
+{'alpha': 1}
+Tuned Ridge Regression CV Mean R�: 0.5567
+--- Tuned Lasso Regression (alpha=10) ---
+RMSE: 25561.431545955187
+MAE: 18897.694516681197
+R2 Score: 0.5415159338833747
+
+--- Best Lasso Parameters ---
+{'alpha': 10}
+Tuned Lasso Regression CV Mean R�: 0.5567
+--- Model Comparison ---
+         Model  CV Mean R�
+0       Linear    0.556648
+1  Tuned Ridge    0.556674
+2  Tuned Lasso    0.556685

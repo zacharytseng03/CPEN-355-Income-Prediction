@@ -1,0 +1,44 @@
+
+--- Checking Lasso Convergence ---
+ConvergenceWarning: Degree=2, Alpha=0.001
+ConvergenceWarning: Degree=2, Alpha=0.01
+ConvergenceWarning: Degree=2, Alpha=0.1
+ConvergenceWarning: Degree=3, Alpha=0.001
+ConvergenceWarning: Degree=3, Alpha=0.01
+ConvergenceWarning: Degree=3, Alpha=0.1
+ConvergenceWarning: Degree=3, Alpha=1
+ConvergenceWarning: Degree=4, Alpha=0.001
+ConvergenceWarning: Degree=4, Alpha=0.01
+ConvergenceWarning: Degree=4, Alpha=0.1
+ConvergenceWarning: Degree=4, Alpha=1
+ConvergenceWarning: Degree=4, Alpha=10
+--- Polynomial Degree Comparison (Linear) ---
+Degree 2: LinearR CV Mean R² = 0.5677
+Degree 3: LinearR CV Mean R² = -0.2498
+Degree 4: LinearR CV Mean R² = -22246.3694
+
+Best Degree (LinearRegression): 2
+Best Ridge Parameters: {'polynomialfeatures__degree': 3, 'ridge__alpha': 100}
+Best Ridge CV Mean R²: 0.5739
+Best Lasso Parameters: {'degree': 2, 'alpha': 10}
+Best Lasso CV Mean R²: 0.5690
+--- Best Polynomial Linear Regression (Degree 2) ---
+RMSE: 25431.85272079638
+MAE: 18411.05639234386
+R2 Score: 0.5461525476908122
+
+--- Tuned Ridge Regression (Degree 3, Alpha 100) ---
+RMSE: 25850.982263898066
+MAE: 18529.445913203926
+R2 Score: 0.5310700175580303
+
+--- Tuned Lasso Regression (Degree 2, Alpha 10) ---
+RMSE: 25361.23383038493
+MAE: 18385.904227308634
+R2 Score: 0.5486695255549334
+
+--- Model Comparison ---
+         Model  CV Mean R²
+0       Linear    0.567680
+1  Tuned Ridge    0.573932
+2  Tuned Lasso    0.568988
